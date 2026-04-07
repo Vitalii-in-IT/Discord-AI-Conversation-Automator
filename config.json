@@ -1,0 +1,65 @@
+{
+    "channels": [
+    {
+        "id_channel": "channel_1",
+        "enabled": true,
+        "id_chat_1": "1491141913959596***",
+        "id_chat_2": "1491142000962175***",
+        "context_size": 8,
+        "name": "Test _chat_1",
+        "prompt_description": "You are chatting in a free-topic chat. Change topics more often if they start to become boring. Next, you will be provided with a chat dialogue and the name from which you will write, along with its personality.",
+        "date_start": "2026-03-01", 
+        "date_end": "2026-09-01",
+
+        "schedule": {
+            "mon": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "tue": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "wed": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "thu": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "fri": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "sat": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "sun": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } }
+        },
+
+        "participants": [
+        {
+            "id_user": "channel_1_user_1",
+            "name": "Biokal",
+            "character": "The publisher's personality: Inquisitive, sociable. Next is the chat history, to which you must respond with ONE message.",
+            "token": "Token!!!"
+        }
+        ]
+    },
+
+    {
+        "id_channel": "channel_2",
+        "enabled": false,
+        "id_chat_1": "1491141913959596***",
+        "id_chat_2": "1491142000962175***",
+        "context_size": 8,
+        "name": "Test_chat_2",
+        "prompt_description": "You are chatting in a free-topic chat. Change topics more often if they start to become boring. Next, you will be provided with a chat dialogue and the name from which you will write, along with its personality.",
+        "date_start": "2026-03-01", 
+        "date_end": "2026-09-01",
+
+        "schedule": {
+            "mon": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "tue": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "wed": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "thu": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "fri": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "sat": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } },
+            "sun": { "start": "12:00", "end": "23:50", "messages": { "min": 2, "max": 5 } }
+        },
+
+        "participants": [
+        {
+            "id_user": "channel_2_user_1",
+            "name": "Biokal",
+            "character": "The publisher's personality: Inquisitive, sociable. Next is the chat history, to which you must respond with ONE message.",
+            "token": "Token!!!"
+        }
+        ]
+    }
+    ]
+}
