@@ -17,6 +17,7 @@ Automation: Selenium WebDriver (Chrome)
 AI Integration: DeepSeek API (REST)
 Data Management: JSON-based configuration & buffering
 Logging: Python logging with RotatingFileHandler
+
 📁 Project Structure
 main.py: The orchestrator. Handles scheduling, task queuing, and global state management.
 browser.py: Selenium-based module for Discord interaction, message parsing, and typing simulation.
